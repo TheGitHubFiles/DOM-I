@@ -112,3 +112,24 @@ contactEmail.textContent = siteContent["contact"]["email"];
 
 const footer = document.querySelector("footer p");
 footer.textContent = siteContent["footer"]["copyright"];
+
+const link = document.createElement("a");
+link.textContent = "map";
+link.href = "#";
+
+document.querySelector("nav").appendChild(link);
+
+const boom = document.createElement("a");
+boom.textContent = "boom";
+boom.href = "#";
+
+document.querySelector("nav").appendChild(boom);
+
+navbar.children[0].style.color = "green";
+navbar.children[1].style.color = "green";
+navbar.children[2].style.color = "green";
+navbar.children[3].style.color = "green";
+navbar.children[4].style.color = "green";
+navbar.children[5].style.color = "green";
+navbar.children[6].style.color = "green";
+navbar.children[7].style.color = "green";
